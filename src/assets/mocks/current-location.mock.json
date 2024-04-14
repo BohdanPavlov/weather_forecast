@@ -1,0 +1,247 @@
+{
+  "currentLocation": [
+    {
+      "LocalObservationDateTime": "2024-04-09T17:27:00+03:00",
+      "EpochTime": 1712672820,
+      "WeatherText": "Sunny",
+      "WeatherIcon": 1,
+      "HasPrecipitation": false,
+      "PrecipitationType": null,
+      "IsDayTime": true,
+      "Temperature": {
+        "Metric": {
+          "Value": 23.9,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Imperial": {
+          "Value": 75.0,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "MobileLink": "http://www.accuweather.com/en/ua/kharkiv/323903/current-weather/323903?lang=en-us",
+      "Link": "http://www.accuweather.com/en/ua/kharkiv/323903/current-weather/323903?lang=en-us"
+    }
+  ],
+  "mockResponse": {
+    "city": {
+      "Version": 1,
+      "Key": "113487",
+      "Type": "City",
+      "Rank": 10,
+      "LocalizedName": "Kinshasa",
+      "Country": {
+        "ID": "CD",
+        "LocalizedName": "Democratic Republic of the Congo"
+      },
+      "AdministrativeArea": {
+        "ID": "KN",
+        "LocalizedName": "Kinshasa"
+      }
+    },
+    "weather": {
+      "LocalObservationDateTime": "2024-04-10T15:37:00+01:00",
+      "EpochTime": 1712759820,
+      "WeatherText": "Partly sunny",
+      "WeatherIcon": 3,
+      "HasPrecipitation": false,
+      "PrecipitationType": null,
+      "IsDayTime": true,
+      "Temperature": {
+        "Metric": {
+          "Value": 33.9,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Imperial": {
+          "Value": 93,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "MobileLink": "http://www.accuweather.com/en/cd/kinshasa/113487/current-weather/113487?lang=en-us",
+      "Link": "http://www.accuweather.com/en/cd/kinshasa/113487/current-weather/113487?lang=en-us"
+    },
+    "dailyForecasts": {
+      "Headline": {
+        "EffectiveDate": "2024-04-10T19:00:00+01:00",
+        "EffectiveEpochDate": 1712772000,
+        "Severity": 5,
+        "Text": "A thunderstorm Wednesday evening",
+        "Category": "thunderstorm",
+        "EndDate": "2024-04-11T01:00:00+01:00",
+        "EndEpochDate": 1712793600,
+        "MobileLink": "http://www.accuweather.com/en/cd/kinshasa/113487/daily-weather-forecast/113487?lang=en-us",
+        "Link": "http://www.accuweather.com/en/cd/kinshasa/113487/daily-weather-forecast/113487?lang=en-us"
+      },
+      "DailyForecasts": [
+        {
+          "Date": "2024-04-10T07:00:00+01:00",
+          "EpochDate": 1712728800,
+          "Temperature": {
+            "Minimum": {
+              "Value": 76,
+              "Unit": "F",
+              "UnitType": 18
+            },
+            "Maximum": {
+              "Value": 93,
+              "Unit": "F",
+              "UnitType": 18
+            }
+          },
+          "Day": {
+            "Icon": 4,
+            "IconPhrase": "Intermittent clouds",
+            "HasPrecipitation": false
+          },
+          "Night": {
+            "Icon": 15,
+            "IconPhrase": "Thunderstorms",
+            "HasPrecipitation": true,
+            "PrecipitationType": "Rain",
+            "PrecipitationIntensity": "Heavy"
+          },
+          "Sources": [
+            "AccuWeather"
+          ],
+          "MobileLink": "http://www.accuweather.com/en/cd/kinshasa/113487/daily-weather-forecast/113487?day=1&lang=en-us",
+          "Link": "http://www.accuweather.com/en/cd/kinshasa/113487/daily-weather-forecast/113487?day=1&lang=en-us"
+        },
+        {
+          "Date": "2024-04-11T07:00:00+01:00",
+          "EpochDate": 1712815200,
+          "Temperature": {
+            "Minimum": {
+              "Value": 76,
+              "Unit": "F",
+              "UnitType": 18
+            },
+            "Maximum": {
+              "Value": 95,
+              "Unit": "F",
+              "UnitType": 18
+            }
+          },
+          "Day": {
+            "Icon": 15,
+            "IconPhrase": "Thunderstorms",
+            "HasPrecipitation": true,
+            "PrecipitationType": "Rain",
+            "PrecipitationIntensity": "Light"
+          },
+          "Night": {
+            "Icon": 15,
+            "IconPhrase": "Thunderstorms",
+            "HasPrecipitation": true,
+            "PrecipitationType": "Rain",
+            "PrecipitationIntensity": "Moderate"
+          },
+          "Sources": [
+            "AccuWeather"
+          ],
+          "MobileLink": "http://www.accuweather.com/en/cd/kinshasa/113487/daily-weather-forecast/113487?day=2&lang=en-us",
+          "Link": "http://www.accuweather.com/en/cd/kinshasa/113487/daily-weather-forecast/113487?day=2&lang=en-us"
+        },
+        {
+          "Date": "2024-04-12T07:00:00+01:00",
+          "EpochDate": 1712901600,
+          "Temperature": {
+            "Minimum": {
+              "Value": 76,
+              "Unit": "F",
+              "UnitType": 18
+            },
+            "Maximum": {
+              "Value": 92,
+              "Unit": "F",
+              "UnitType": 18
+            }
+          },
+          "Day": {
+            "Icon": 6,
+            "IconPhrase": "Mostly cloudy",
+            "HasPrecipitation": true,
+            "PrecipitationType": "Rain",
+            "PrecipitationIntensity": "Light"
+          },
+          "Night": {
+            "Icon": 38,
+            "IconPhrase": "Mostly cloudy",
+            "HasPrecipitation": false
+          },
+          "Sources": [
+            "AccuWeather"
+          ],
+          "MobileLink": "http://www.accuweather.com/en/cd/kinshasa/113487/daily-weather-forecast/113487?day=3&lang=en-us",
+          "Link": "http://www.accuweather.com/en/cd/kinshasa/113487/daily-weather-forecast/113487?day=3&lang=en-us"
+        },
+        {
+          "Date": "2024-04-13T07:00:00+01:00",
+          "EpochDate": 1712988000,
+          "Temperature": {
+            "Minimum": {
+              "Value": 76,
+              "Unit": "F",
+              "UnitType": 18
+            },
+            "Maximum": {
+              "Value": 92,
+              "Unit": "F",
+              "UnitType": 18
+            }
+          },
+          "Day": {
+            "Icon": 7,
+            "IconPhrase": "Cloudy",
+            "HasPrecipitation": true,
+            "PrecipitationType": "Rain",
+            "PrecipitationIntensity": "Light"
+          },
+          "Night": {
+            "Icon": 38,
+            "IconPhrase": "Mostly cloudy",
+            "HasPrecipitation": false
+          },
+          "Sources": [
+            "AccuWeather"
+          ],
+          "MobileLink": "http://www.accuweather.com/en/cd/kinshasa/113487/daily-weather-forecast/113487?day=4&lang=en-us",
+          "Link": "http://www.accuweather.com/en/cd/kinshasa/113487/daily-weather-forecast/113487?day=4&lang=en-us"
+        },
+        {
+          "Date": "2024-04-14T07:00:00+01:00",
+          "EpochDate": 1713074400,
+          "Temperature": {
+            "Minimum": {
+              "Value": 75,
+              "Unit": "F",
+              "UnitType": 18
+            },
+            "Maximum": {
+              "Value": 93,
+              "Unit": "F",
+              "UnitType": 18
+            }
+          },
+          "Day": {
+            "Icon": 4,
+            "IconPhrase": "Intermittent clouds",
+            "HasPrecipitation": false
+          },
+          "Night": {
+            "Icon": 35,
+            "IconPhrase": "Partly cloudy",
+            "HasPrecipitation": false
+          },
+          "Sources": [
+            "AccuWeather"
+          ],
+          "MobileLink": "http://www.accuweather.com/en/cd/kinshasa/113487/daily-weather-forecast/113487?day=5&lang=en-us",
+          "Link": "http://www.accuweather.com/en/cd/kinshasa/113487/daily-weather-forecast/113487?day=5&lang=en-us"
+        }
+      ]
+    }
+  }
+}

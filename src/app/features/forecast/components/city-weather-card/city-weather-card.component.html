@@ -1,0 +1,38 @@
+<div class="card-wrapper" *ngIf="forecast$ | async; let forecast">
+	<mat-card class="card">
+		<mat-card-content class="card-content">
+			<div class="city-info-wrapper">
+				<div class="weather-icon">
+					<img class="weather-icon__img"
+					     [ngSrc]="getWeatherIcon(forecast.weather.WeatherIcon)"
+					     fill
+					     [alt]="forecast.weather.WeatherText"/>
+				</div>
+				<div class="city-info">
+					<div class="city-info__name">{{ forecast.city.AdministrativeArea.LocalizedName }}</div>
+					<div class="city-info__temperature">
+						{{ forecast.weather.Temperature.Metric.Value }}
+						&#176;
+						{{ forecast.weather.Temperature.Metric.Unit }}
+					</div>
+				</div>
+			</div>
+			<div class="actions">
+				<button mat-icon-button (click)="onToggleChart()">
+					<mat-icon
+						class="chart"
+						[ngClass]="{ 'selected': isChartVisible }"
+					> bar_chart
+					</mat-icon>
+				</button>
+				<button mat-icon-button (click)="onToggleFavourite(forecast)">
+					<mat-icon
+						class="favourite"
+						[ngClass]="{ 'selected': isFavouriteCity$ | async }"
+					>favorite
+					</mat-icon>
+				</button>
+			</div>
+		</mat-card-content>
+	</mat-card>
+</div>

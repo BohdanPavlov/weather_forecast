@@ -1,0 +1,18 @@
+<mat-card
+	class="card"
+	(click)="showDetailedInfo(favourite.name)"
+>
+	<mat-card-content class="card-content">
+		<div class="name">{{ favourite.name }}</div>
+		<div class="value">
+			{{ favourite.weather.value }}
+			&#176;
+			{{ favourite.weather.unit }}
+		</div>
+		<div class="weather-icon">
+			<img [ngSrc]="getWeatherIcon(favourite.weather.icon)"
+			     fill
+			     alt="Weather Icon"/>
+		</div>
+	</mat-card-content>
+</mat-card>

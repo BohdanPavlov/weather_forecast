@@ -1,0 +1,31 @@
+<mat-toolbar color="primary" class="toolbar">
+	<span class="title">My Weather</span>
+	<span class="spacer"></span>
+	<div class="controls">
+		<button
+			mat-icon-button
+			routerLink="/forecast"
+			routerLinkActive="active-link"
+			[routerLinkActiveOptions]="{ exact: true }"
+		>
+			<mat-icon>home</mat-icon>
+		</button>
+		<button
+			mat-icon-button
+			routerLink="/forecast/favourite"
+			routerLinkActive="active-link"
+			[routerLinkActiveOptions]="{ exact: true }"
+		>
+			<mat-icon>favorite</mat-icon>
+		</button>
+		<button mat-icon-button (click)="onToggleTheme()">
+			<mat-icon class="theme" [ngClass]="{ 'dark': isDarkMode }">brightness_medium</mat-icon>
+		</button>
+		<button
+			mat-icon-button
+			class="temperature"
+			(click)="onToggleTemperatureUnit()"
+		>{{ temperatureUnit }}
+		</button>
+	</div>
+</mat-toolbar>

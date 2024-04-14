@@ -1,0 +1,10 @@
+<form class="search-form">
+	<mat-form-field class="field">
+		<mat-label>Find city</mat-label>
+		<input type="text"
+		       placeholder="Enter city name"
+		       matInput
+		       [formControl]="search"
+		       (input)="onSearch()">
+	</mat-form-field>
+</form>

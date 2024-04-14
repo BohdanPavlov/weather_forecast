@@ -1,0 +1,33 @@
+<div class="daily-forecast">
+	<mat-card *ngFor="let dailyForecast of forecast.dailyForecasts.DailyForecasts" class="card">
+		<mat-card-content class="card-content">
+			<div class="weekday">{{ dailyForecast.Date | date : 'EEE' }}</div>
+			<div class="daytime">
+				<div class="night">
+					<div class="night-icon">
+						<img [ngSrc]="getWeatherIcon(dailyForecast.Night.Icon)"
+						     fill
+						     [alt]="dailyForecast.Night.IconPhrase"/>
+					</div>
+					<div class="night-temperature">
+						{{ dailyForecast.Temperature.Minimum.Value }}
+						&#176;
+						{{ dailyForecast.Temperature.Minimum.Unit }}
+					</div>
+				</div>
+				<div class="day">
+					<div class="day-icon">
+						<img [ngSrc]="getWeatherIcon(dailyForecast.Day.Icon)"
+						     fill
+						     [alt]="dailyForecast.Day.IconPhrase"/>
+					</div>
+					<div class="day-temperature">
+						{{ dailyForecast.Temperature.Maximum.Value }}
+						&#176;
+						{{ dailyForecast.Temperature.Maximum.Unit }}
+					</div>
+				</div>
+			</div>
+		</mat-card-content>
+	</mat-card>
+</div>
