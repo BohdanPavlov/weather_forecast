@@ -1,0 +1,25 @@
+<app-search-city-form></app-search-city-form>
+
+<div class="weather-forecast">
+	<app-city-weather-card
+		*ngIf="forecast$ | async"
+		[isChartVisible]="isChartVisible"
+		(toggleChart)="onToggleChart($event)"
+	></app-city-weather-card>
+
+	<app-daily-weather-forecast
+		*ngIf="!isChartVisible && (forecast$ | async); let forecast"
+		[forecast]="forecast"
+	></app-daily-weather-forecast>
+
+	<app-daily-forecast-line-chart
+		*ngIf="isChartVisible && (forecast$ | async); let forecast"
+		[forecast]="forecast"
+	></app-daily-forecast-line-chart>
+
+	<mat-spinner color="primary" *ngIf="isLoading$ | async"></mat-spinner>
+
+	<div class="error" *ngIf="error$ | async; let error">{{ error }}</div>
+</div>
+
+

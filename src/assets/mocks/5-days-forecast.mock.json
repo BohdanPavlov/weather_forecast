@@ -1,0 +1,172 @@
+{
+  "response": {
+    "Headline": {
+      "EffectiveDate": "2024-04-09T14:00:00+03:00",
+      "EffectiveEpochDate": 1712660400,
+      "Severity": 7,
+      "Text": "Warm from Tuesday afternoon to Wednesday afternoon",
+      "Category": "heat",
+      "EndDate": "2024-04-10T20:00:00+03:00",
+      "EndEpochDate": 1712768400,
+      "MobileLink": "http://www.accuweather.com/en/ua/kharkiv/323903/daily-weather-forecast/323903?lang=en-us",
+      "Link": "http://www.accuweather.com/en/ua/kharkiv/323903/daily-weather-forecast/323903?lang=en-us"
+    },
+    "DailyForecasts": [
+      {
+        "Date": "2024-04-09T07:00:00+03:00",
+        "EpochDate": 1712635200,
+        "Temperature": {
+          "Minimum": {
+            "Value": 53.0,
+            "Unit": "F",
+            "UnitType": 18
+          },
+          "Maximum": {
+            "Value": 76.0,
+            "Unit": "F",
+            "UnitType": 18
+          }
+        },
+        "Day": {
+          "Icon": 6,
+          "IconPhrase": "Mostly cloudy",
+          "HasPrecipitation": false
+        },
+        "Night": {
+          "Icon": 33,
+          "IconPhrase": "Clear",
+          "HasPrecipitation": false
+        },
+        "Sources": [
+          "AccuWeather"
+        ],
+        "MobileLink": "http://www.accuweather.com/en/ua/kharkiv/323903/daily-weather-forecast/323903?day=1&lang=en-us",
+        "Link": "http://www.accuweather.com/en/ua/kharkiv/323903/daily-weather-forecast/323903?day=1&lang=en-us"
+      },
+      {
+        "Date": "2024-04-10T07:00:00+03:00",
+        "EpochDate": 1712721600,
+        "Temperature": {
+          "Minimum": {
+            "Value": 54.0,
+            "Unit": "F",
+            "UnitType": 18
+          },
+          "Maximum": {
+            "Value": 78.0,
+            "Unit": "F",
+            "UnitType": 18
+          }
+        },
+        "Day": {
+          "Icon": 1,
+          "IconPhrase": "Sunny",
+          "HasPrecipitation": false
+        },
+        "Night": {
+          "Icon": 33,
+          "IconPhrase": "Clear",
+          "HasPrecipitation": false
+        },
+        "Sources": [
+          "AccuWeather"
+        ],
+        "MobileLink": "http://www.accuweather.com/en/ua/kharkiv/323903/daily-weather-forecast/323903?day=2&lang=en-us",
+        "Link": "http://www.accuweather.com/en/ua/kharkiv/323903/daily-weather-forecast/323903?day=2&lang=en-us"
+      },
+      {
+        "Date": "2024-04-11T07:00:00+03:00",
+        "EpochDate": 1712808000,
+        "Temperature": {
+          "Minimum": {
+            "Value": 54.0,
+            "Unit": "F",
+            "UnitType": 18
+          },
+          "Maximum": {
+            "Value": 81.0,
+            "Unit": "F",
+            "UnitType": 18
+          }
+        },
+        "Day": {
+          "Icon": 2,
+          "IconPhrase": "Mostly sunny",
+          "HasPrecipitation": false
+        },
+        "Night": {
+          "Icon": 35,
+          "IconPhrase": "Partly cloudy",
+          "HasPrecipitation": false
+        },
+        "Sources": [
+          "AccuWeather"
+        ],
+        "MobileLink": "http://www.accuweather.com/en/ua/kharkiv/323903/daily-weather-forecast/323903?day=3&lang=en-us",
+        "Link": "http://www.accuweather.com/en/ua/kharkiv/323903/daily-weather-forecast/323903?day=3&lang=en-us"
+      },
+      {
+        "Date": "2024-04-12T07:00:00+03:00",
+        "EpochDate": 1712894400,
+        "Temperature": {
+          "Minimum": {
+            "Value": 48.0,
+            "Unit": "F",
+            "UnitType": 18
+          },
+          "Maximum": {
+            "Value": 72.0,
+            "Unit": "F",
+            "UnitType": 18
+          }
+        },
+        "Day": {
+          "Icon": 4,
+          "IconPhrase": "Intermittent clouds",
+          "HasPrecipitation": false
+        },
+        "Night": {
+          "Icon": 38,
+          "IconPhrase": "Mostly cloudy",
+          "HasPrecipitation": false
+        },
+        "Sources": [
+          "AccuWeather"
+        ],
+        "MobileLink": "http://www.accuweather.com/en/ua/kharkiv/323903/daily-weather-forecast/323903?day=4&lang=en-us",
+        "Link": "http://www.accuweather.com/en/ua/kharkiv/323903/daily-weather-forecast/323903?day=4&lang=en-us"
+      },
+      {
+        "Date": "2024-04-13T07:00:00+03:00",
+        "EpochDate": 1712980800,
+        "Temperature": {
+          "Minimum": {
+            "Value": 45.0,
+            "Unit": "F",
+            "UnitType": 18
+          },
+          "Maximum": {
+            "Value": 66.0,
+            "Unit": "F",
+            "UnitType": 18
+          }
+        },
+        "Day": {
+          "Icon": 8,
+          "IconPhrase": "Dreary",
+          "HasPrecipitation": false
+        },
+        "Night": {
+          "Icon": 36,
+          "IconPhrase": "Intermittent clouds",
+          "HasPrecipitation": false
+        },
+        "Sources": [
+          "AccuWeather"
+        ],
+        "MobileLink": "http://www.accuweather.com/en/ua/kharkiv/323903/daily-weather-forecast/323903?day=5&lang=en-us",
+        "Link": "http://www.accuweather.com/en/ua/kharkiv/323903/daily-weather-forecast/323903?day=5&lang=en-us"
+      }
+    ]
+  }
+}

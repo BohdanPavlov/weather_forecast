@@ -1,0 +1,4 @@
+<app-favourite-city-card
+	*ngFor="let favourite of favourite$ | async; trackBy: trackByFn"
+	[favourite]="favourite"
+></app-favourite-city-card>
